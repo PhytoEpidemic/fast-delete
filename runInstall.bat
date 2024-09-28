@@ -6,3 +6,4 @@ if exist shortcut.lnk (
 ) else (
     powershell -ExecutionPolicy Bypass -File "FastDelete.ps1" "Install"
 )
+del shortcut.lnk
